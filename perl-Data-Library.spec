@@ -17,7 +17,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	f5c37477b29ffaeb8d3cc02262faca10
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if {with tests}
+%if %{with tests}
 BuildRequires:	perl-Class-Virtual
 BuildRequires:	perl-Log-Channel
 %endif
