@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Data
-%define	pnam	Library
+%define		pdir	Data
+%define		pnam	Library
 Summary:	Data::Library - virtual class for repository support classes
 Summary(pl):	Data::Library - klasa wirtualna dla klas us³ug magazynowych
 Name:		perl-Data-Library
