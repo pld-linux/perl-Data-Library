@@ -6,7 +6,7 @@
 %define		pdir	Data
 %define		pnam	Library
 Summary:	Data::Library - virtual class for repository support classes
-Summary(pl):	Data::Library - klasa wirtualna dla klas us³ug magazynowych
+Summary(pl.UTF-8):   Data::Library - klasa wirtualna dla klas usÅ‚ug magazynowych
 Name:		perl-Data-Library
 Version:	0.2
 Release:	1
@@ -28,9 +28,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Data::Library Perl module provides a general repository service. 
 Specifics are implemented in subclasses.
 
-%description -l pl
-Modu³ Perla Data::Library udostêpnia ogóln± us³ugê magazynow±.
-Szczegó³y s± zaimplementowane w podklasach.
+%description -l pl.UTF-8
+ModuÅ‚ Perla Data::Library udostÄ™pnia ogÃ³lnÄ… usÅ‚ugÄ™ magazynowÄ….
+SzczegÃ³Å‚y sÄ… zaimplementowane w podklasach.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
