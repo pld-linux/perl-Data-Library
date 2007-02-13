@@ -6,7 +6,7 @@
 %define		pdir	Data
 %define		pnam	Library
 Summary:	Data::Library - virtual class for repository support classes
-Summary(pl.UTF-8):   Data::Library - klasa wirtualna dla klas usług magazynowych
+Summary(pl.UTF-8):	Data::Library - klasa wirtualna dla klas usług magazynowych
 Name:		perl-Data-Library
 Version:	0.2
 Release:	1
