@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Data
 %define		pnam	Library
+%include	/usr/lib/rpm/macros.perl
 Summary:	Data::Library - virtual class for repository support classes
 Summary(pl.UTF-8):	Data::Library - klasa wirtualna dla klas usług magazynowych
 Name:		perl-Data-Library
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3d849a67a8d0273458043c5378c8bca9
+URL:		http://search.cpan.org/dist/Data-Library/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -25,7 +26,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Data::Library Perl module provides a general repository service. 
+Data::Library Perl module provides a general repository service.
 Specifics are implemented in subclasses.
 
 %description -l pl.UTF-8
