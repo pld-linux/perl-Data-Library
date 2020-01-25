@@ -4,7 +4,6 @@
 
 %define		pdir	Data
 %define		pnam	Library
-%include	/usr/lib/rpm/macros.perl
 Summary:	Data::Library - virtual class for repository support classes
 Summary(pl.UTF-8):	Data::Library - klasa wirtualna dla klas usług magazynowych
 Name:		perl-Data-Library
